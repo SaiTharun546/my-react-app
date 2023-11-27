@@ -34,7 +34,7 @@ const ProductsComponent = () => {
             <form onSubmit={handleSearchSubmit}>
                 <input
                     type="text"
-                    placeholder="Search by product name"
+                    placeholder="Search by product names"
                     value={searchQuery}
                     onChange={handleSearchChange}
                 />
